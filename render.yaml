@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: taxsync-api
+    env: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: FRONTEND_URL
+        sync: false   # Set manually in Render dashboard after Vercel deploy

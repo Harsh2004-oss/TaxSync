@@ -1,0 +1,42 @@
+{
+  "gstin": "23BUYER9999K1ZP",
+  "fp": "102026",
+  "b2b": [
+    {
+      "ctin": "23AABCP1234D1ZM",
+      "inv": [
+        {
+          "inum": "PT/26-27/550",
+          "dt": "02-10-2026",
+          "val": 118000.0,
+          "itcavl": "Y",
+          "items": [{ "txval": 100000.0, "iamt": 0.0, "camt": 9000.0, "samt": 9000.0 }]
+        }
+      ]
+    },
+    {
+      "ctin": "23AABCA3333G1ZJ",
+      "inv": [
+        {
+          "inum": "089",
+          "dt": "11-10-2026",
+          "val": 53100.0,
+          "itcavl": "Y",
+          "items": [{ "txval": 45000.0, "iamt": 0.0, "camt": 4050.0, "samt": 4050.0 }]
+        }
+      ]
+    },
+    {
+      "ctin": "23AABCB5555F1ZK",
+      "inv": [
+        {
+          "inum": "BS/OCT/012",
+          "dt": "08-10-2026",
+          "val": 17700.0,
+          "itcavl": "Y",
+          "items": [{ "txval": 15000.0, "iamt": 0.0, "camt": 1350.0, "samt": 1350.0 }]
+        }
+      ]
+    }
+  ]
+}
